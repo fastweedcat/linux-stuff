@@ -8,7 +8,7 @@ for_window [class=".*"] border pixel 2
 
 #exec /home/ibz/.screenlayout/start.sh
 
-exec_always feh --bg-scale /home/ibz/Downloads/wall.jpg
+exec_always feh --bg-scale /home/ibz/Wallpapers/wall.jpg
 
 # i3 config file (v4)
 #
