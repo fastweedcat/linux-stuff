@@ -8,7 +8,7 @@ for_window [class=".*"] border pixel 2
 
 #exec /home/ibz/.screenlayout/start.sh
 
-exec_always feh --bg-scale /home/ibz/Wallpapers/wall.jpg
+exec_always feh --bg-scale /home/ibz/Wallpapers/wallpaper.jpg
 
 # i3 config file (v4)
 #
@@ -88,6 +88,12 @@ bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
 bindsym $mod+Shift+semicolon move right
+
+#Startup shortcuts
+
+bindsym $mod+n exec librewolf
+bindsym $mod+m exec firefox
+
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
